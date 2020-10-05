@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/keil/fabric/issues"
   },
-  "homepage": "https://github.com/keil/fabric#readme"
+  "homepage": "https://github.com/keil/fabric#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
