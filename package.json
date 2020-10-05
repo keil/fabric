@@ -15,7 +15,11 @@
     "Widget",
     "Toolkit"
   ],
-  "author": "Matthias Keil <keil@rm-keil.de> (http://matthias-keil.de)",
+  "author": {
+    "name": "Matthias Keil",
+    "email": "keil@rm-keil.de",
+    "url": "https://matthias-keil.de"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/keil/fabric/issues"
