@@ -1,0 +1,24 @@
+{
+  "name": "@keil/fabric",
+  "version": "0.0.1",
+  "description": "Advanced JavaScript Widget Toolkit",
+  "main": "lib/fabric.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keil/fabric.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Widget",
+    "Toolkit"
+  ],
+  "author": "Matthias Keil <keil@rm-keil.de> (http://matthias-keil.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keil/fabric/issues"
+  },
+  "homepage": "https://github.com/keil/fabric#readme"
+}
