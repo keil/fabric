@@ -7,4 +7,4 @@ Copyright © by [Roman Matthias Keil](http://rm-keil.de). All rights reserved.
 
 ## License
 
-fabric is [MIT licensed](./LICENSE).
+fabric is [MIT licensed](./LICENSE.md).
