@@ -11,7 +11,7 @@ _**fabric** is actually in a prototyping phase and not yet ready to use._ We wil
 
 ## Contact 
 
-In case of any questions, please feel free to contact the [Matthias Keil](http://rm-keil.de) on <fabric@rm-keil.de>.
+In case of any questions, please feel free to contact [Matthias Keil](http://rm-keil.de) on <fabric@rm-keil.de>.
 
 ## License
 
