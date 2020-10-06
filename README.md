@@ -5,8 +5,10 @@
 [![NPM](https://img.shields.io/npm/l/@keil/fabric)](./LICENSE.md)
 [![npm (scoped)](https://img.shields.io/npm/v/@keil/fabric)](https://www.npmjs.com/package/@keil/fabric)
 
-Copyright © by [Matthias Keil](http://rm-keil.de). All rights reserved.
+
 
 ## License
 
 **fabric** is licensed under the [MIT License](./LICENSE.md).
+
+Copyright © by [Matthias Keil](http://rm-keil.de). All rights reserved.
