@@ -1,6 +1,6 @@
 {
   "name": "@keil/fabric",
-  "version": "0.0.1-alpha",
+  "version": "0.0.1-beta",
   "description": "Advanced JavaScript Widget Toolkit",
   "main": "lib/fabric.js",
   "scripts": {
