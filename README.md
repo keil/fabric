@@ -7,7 +7,11 @@
 
 **fabric** is a JavaScrip widget toolkit for developing web applications. Its purpose is to simplify web applications' development by abstracting UI elements and providing a set of ready-to-use widget elements. 
 
-_**fabric** is actually in a prototyping phase and not yet ready to use._
+_**fabric** is actually in a prototyping phase and not yet ready to use._ We will provide more details on the use of **fabric** upon completion of the prototype.
+
+## Contact 
+
+In case of any questions, please feel free to contact the [Matthias Keil](http://rm-keil.de) on <fabric@rm-keil.de>.
 
 ## License
 
