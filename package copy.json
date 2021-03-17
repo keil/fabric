@@ -2,7 +2,6 @@
   "name": "@keil/fabric",
   "version": "0.0.1-alpha",
   "description": "Advanced JavaScript Widget Toolkit",
-  "type": "module",
   "main": "lib/fabric.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -30,7 +29,7 @@
     "access": "public"
   },
   "dependencies": {
-    "config": "^3.3.3",
+    "esm": "^3.2.25",
     "express": "^4.17.1",
     "mustache": "^4.0.1"
   }
