@@ -1,13 +1,30 @@
-import { HTMLElement } from './lib/fabric.html.js';
+import {
+    Doctype,
+    Html,
+    Head,
+    Title,
+    Body,
+    H1Heading,
+    Paragraph
+} from './lib/core/fabric.core.js'
 
+import {
+    start,
+    main
+} from './lib/runtime/fabric.server.js'
 
-import { View } from './lib/fabric.js';
+let page = new Html(
+    new Doctype(),
+    new Head([new Title("fabric Demo Application")]),
+    new Body([
+        new H1Heading([
+            "fabric Demo Application"
+        ]),
+        new Paragraph([
+            "A new star is born ..."
+        ])
+    ])
+);
 
-let view = new View("Test", "<p>A new start is born ...</p>");
-console.log(view.render());
-view.show();
-
-
-
-
-
+start();
+main(page);
