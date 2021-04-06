@@ -3,6 +3,7 @@ import {
     Html,
     Head,
     Title,
+    Meta,
     Body,
     H1Heading,
     Paragraph
@@ -15,7 +16,10 @@ import {
 
 let page = new Html(
     new Doctype(),
-    new Head([new Title("fabric Demo Application")]),
+    new Head([
+        new Meta({}),
+        new Title("fabric Demo Application")
+    ]),
     new Body([
         new H1Heading([
             "fabric Demo Application"
@@ -25,6 +29,8 @@ let page = new Html(
         ])
     ])
 );
+
+console.log(page.render());
 
 start();
 main(page);
