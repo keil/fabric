@@ -1,0 +1,275 @@
+/*
+ * Main Root 
+ */
+
+html {
+    height: 100%;
+    margin-bottom: 1px;
+    width: 100%;
+
+    background-color: #cecece;
+}
+
+/* 
+ * Sectioning Root
+ */
+
+body {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1ex 0 #a8a8a8;
+    
+    width: 90%;
+    min-width: 65em;
+    max-width: 85em;
+    margin: 5ex auto 5ex;
+    padding: 0;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    
+    color: #333333;
+}
+
+/* 
+ * Content Sectioning
+ */
+
+ header {
+    /*margin: 2ex 0;
+    padding: 2ex;*/
+
+    background-color: #ff0000;
+
+    background-color: #e7e7e7;
+    background-color: #ff0000;
+    color: #fff;
+ }
+
+ footer {
+    /*margin: 2ex 0;
+    padding: 2ex;*/
+
+    background-color: #e7e7e7;
+ }
+
+ main {
+    /*margin: 2ex 0;
+    padding: 2ex;*/
+
+    background-color: #ffffff;
+ }
+
+ p:first-child {
+     margin-top: 0;
+ }
+
+ p:last-child {
+    margin-bottom: 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1em;
+    font-weight: normal;
+    /*color: #333333;*/
+    /*margin: 1em 0 0;*/
+    padding: 10px 10px;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: 400;
+    /*margin: 1em 0 0 0;*/
+    /*background-color: #e7e7e7;
+    background-color: #ff0000;*/
+    /*color: #fff;*/
+    /*padding: 1ex 1ex;*/
+    background-color: #e7e7e7;
+}
+
+header h1 {
+    background-color: inherit;
+}
+
+
+h2 {
+    font-size: 1.66em;
+    line-height: 1em;
+    font-weight: 400;
+    /*background-color: #f5f5f5;*/
+    margin: 0;
+}
+
+main>h2 {
+    background-color: #e7e7e7;
+}
+
+h3 {
+    font-size: 1.33em;
+    line-height: 1em;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1em;
+    line-height: 1em;
+}
+
+h5 {
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 200;
+}
+
+h6 {
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 200;
+    font-style: italic;
+}
+
+/* 
+ * Text Content
+ */
+
+p, a {
+    /*padding: 0;*/
+    /*margin: 1em 0;*/
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: normal;
+    text-align: left;
+    color: #333333;
+
+
+    margin: 1em 0;
+    padding: 10px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff0000;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+main a[href^="http:"], main a[href^="https:"] {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+main a[href^="http:"]:before, main a[href^="https:"]:before {
+    content: "\29C9\00A0";
+    color: #ff0000;
+    text-decoration: none;
+}
+
+main a[href^="#"]:before, main a[href^="/"]:before {
+    content: "\25B8\00A0";
+    color: #ff0000;
+    text-decoration: none;
+}
+
+hr {
+    border: none;
+    background-color: #888899;
+    height: 1px;
+    margin: 2em 0;
+}
+
+/* Inline Contexnt */
+
+img {
+    border: none;
+}
+
+/*
+ * Forms
+ */
+
+form#dd {
+    background-color: #f5f5f5;
+    /*box-shadow: 1px 1px 1ex 0 #c8c8c8;*/
+    /*margin: 20px;*/
+    /*margin: 0 auto;
+    width: 75ex;
+   */
+    /*border: 1px solid #878c96;*/
+    /* box-shadow: 0 -5px 5px -1px rgba(0, 0, 0, 0.15); 
+    box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0.3em 0.3em 0.9em black;
+
+    box-shadow: inset 0 -5px 5px -1px rgba(0, 0, 0, 0.15); 
+
+
+
+    box-shadow: inset 0 4px 1ex 0 #d5d5d5;
+
+    box-shadow: inset 0 1px 1ex 0 blueviolet; */
+    box-shadow: inset 0 10px 5px #888, inset 0 -10px 5px #888;
+    box-shadow: inset 0 1px 1ex #888, inset 0 -1px 1ex #888;
+    box-shadow: inset 0px 11px 1ex -10px #d5d5d5, inset 0px -11px 1ex -10px #d5d5d5;
+    padding: 10px;
+}
+
+button, input, textarea {
+    font-size: 1em;
+}
+
+button {
+    padding: 1ex 3ex;
+    /*background-color: #FF0000;*/
+    border: 1px rgba(0, 0, 0, 0.5);
+    /*box-sizing: content-box;*/
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+    /*box-shadow: 1px 0px 0px red;*/
+    /*box-sizing: border-box;*/
+    color: rgb(255, 255, 255);
+    /*display: inline-block;*/
+    /*empty-cells: show;*/
+}
+
+button.red:hover {
+    background-color: #CC0000;
+    /*box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);*/
+}
+
+button.red {
+    background-color: #c34;
+    background-color: #a11;
+    background-color: #f00;
+    color: #fff;
+}
+
+button:hover.red {
+    background-color: #a11;
+    background-color: #CC0000;
+    color: #fff;
+}
+
+button.gray {
+    background-color: #bdc0c5;
+    background-color: #878c96;
+    color: #ffffff;
+}
+
+button:hover.gray {
+    background-color: #646973;
+}
+
+button.deactivated {
+    background-color: #bdc0c5;
+}
