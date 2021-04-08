@@ -1,0 +1,15 @@
+<form{{! 
+}}{{#attributes}}{{!
+}}{{#acceptcharset}} accept-charset="{{&acceptcharset}}"{{/acceptcharset}}{{!
+}}{{#action}} action="{{&action}}"{{/action}}{{!
+}}{{#autocomplete}} autocomplete="{{&autocomplete}}"{{/autocomplete}}{{!
+}}{{#enctype}} enctype="{{&enctype}}"{{/enctype}}{{!
+}}{{#method}} method="{{&method}}"{{/method}}{{!
+}}{{#name}} name="{{&name}}"{{/name}}{{!
+}}{{#novalidate}} novalidate="{{&novalidate}}"{{/novalidate}}{{!
+}}{{#target}} target="{{&target}}"{{/target}}{{!
+}}{{/attributes}}{{> attributes}}>
+{{#content}}{{!
+}}{{&.}}{{!
+}}{{/content}}
+</form>
